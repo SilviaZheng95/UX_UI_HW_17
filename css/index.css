@@ -1,0 +1,53 @@
+.inline-block {
+    width:88%;
+    text-align: right;
+    display:inline-block;
+    vertical-align: top;
+    background-color: blue;
+
+}
+
+.logo {
+    background-color:pink;
+    width: 11%;
+    padding:1%;
+    text-align:left;
+}
+
+nav {
+    width: 73%;
+    padding:1%;  
+    background-color:green;
+
+}
+
+nav ul {
+    width: 100%;
+    margin-left: auto;
+    grid-template-rows: auto;
+    background-color:yellow:
+}
+
+.heroImg {
+    background-color:red;
+    width:100%;
+    height: 300px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: text text text text;
+
+}
+
+
+
+footer ul{
+    background-image: url("/images/Bottom.png");
+    width:88%;
+    text-align: right;
+    display:inline-block;
+    vertical-align: top;
+    background-color:orange;
+
+    
+}
